@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor HTML</title>
+    <!--JS-->
+    <script>
+        function acao() {
+            //variavel
+            var texto = document.getElementsByTagName("h1")[0];
+
+            //Exibir o conteúdo
+            alert(texto.innerHTML);
+        }
+        function acao2() {
+            //variavel
+            var texto = document.getElementsByTagName("h1")[1];
+
+            //Exibir o conteúdo
+            alert(texto.innerHTML);
+        }
+        function acao3() {
+            //variavel
+            var texto = document.getElementsByTagName("h1")[2];
+
+            //Exibir o conteúdo
+            alert(texto.innerHTML);
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Proz  </h1> <button onclick="acao()"> Selecionar </button>
+    <h1>Seltores HTML </h1> <button onclick="acao2()">Selecionar</button>
+    <h1>Curso de DS  </h1> <button onclick="acao3()">Selecionar</button>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Clique</title>
+    <!--JS-->
+    <script>
+        //Variaveis
+        var cliques = 1;
+        //criar a função mensagem
+        function mensagem(){
+            if(cliques <= 4 ){
+              alert("Clique no botão.\nQuantidade de cliques: " + cliques);
+            cliques ++;  
+            }else{
+                alert("Numero de cliques não permitido, a contagem será ZERADA!");
+                clique = 0;
+            }
+            
+        }
+    </script>
+</head>
+<body>
+   <button onclick="mensagem()">Clique aqui</button> 
+</body>
+</html>
