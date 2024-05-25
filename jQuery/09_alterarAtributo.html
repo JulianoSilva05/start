@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Atributos</title>
+
+     <!--jQuery-->
+     <script src="jquery-3.7.1.min.js"></script>
+     <!--Script-->
+     <script>
+         //Ap carregar o documento
+         $(document).ready(function(){
+            //Selecionar e alterar o elemento img
+            $("img").attr({
+                "width":"200",
+                "title" : " Escola proz de educação",
+                "alt" : "Imagem da logo da proz"
+            })
+         });
+         
+     </script>
+</head>
+<body>
+    <img src="logo_Proz.png" alt="" >
+</body>
+</html>
